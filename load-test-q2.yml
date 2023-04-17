@@ -1,0 +1,10 @@
+config:
+  target: "http://localhost:3000" #base url
+  phases:
+    - duration: 60 #generated for 60 seconds
+      arrivalRate: 1 #no. of virtual users sent to endpoints/second
+scenarios:
+  - name: "Load testing for endpoint #2"
+    flow:
+      - get:
+          url: "/rhm" #get endpoint #2
