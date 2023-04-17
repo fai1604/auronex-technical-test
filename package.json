@@ -4,8 +4,23 @@
   "description": "solutions for Auronex tech test",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fai",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fai1604/auronex-technical-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fai1604/auronex-technical-test/issues"
+  },
+  "homepage": "https://github.com/fai1604/auronex-technical-test#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "randomstring": "^1.2.3"
+  }
 }
